@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/customToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:minHeight="?actionBarSize"
+            android:padding="8dp"
+            android:text="@string/runtime_permissions"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/openCamera"
+            android:text="@string/camera_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/customToolbar" />
+
+        <Button
+            android:id="@+id/openFile"
+            android:text="@string/storage_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/openCamera" />
+
+        <Button
+            android:id="@+id/multiplePermission"
+            android:text="@string/multiple_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/openFile" />
+
+        <Button
+            android:id="@+id/getContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/multiplePermission"
+            android:text="@string/get_content_from_device" />
+
+        <Button
+            android:id="@+id/getData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/getContent"
+            android:text="@string/get_content_from_another_activity" />
+
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_below="@id/getData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</layout>

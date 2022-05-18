@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RunTimePermissions</string>
+    <string name="camera_permission">Camera Permission</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="sms_permission">SMS Permission</string>
+    <string name="contacts_permission">Contacts Permission</string>
+    <string name="audio_permission">Audio Permission</string>
+    <string name="location_permission">Location Permission</string>
+    <string name="runtime_permissions">Runtime Permissions using new API</string>
+    <string name="multiple_permission">Multiple Permission</string>
+    <string name="get_content_from_another_activity">Get Content From Another Activity</string>
+    <string name="get_content_from_device">Get content from device</string>
+</resources>

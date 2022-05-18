@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Night mode colors-->
+    <color name="colorPrimary">#019267</color>
+    <color name="colorPrimaryDark">#019267</color>
+    <color name="colorAccent">#019267</color>
+    <color name="mainBackgroundColor">#273443</color>
+    <color name="titleColor">#E1E1E1</color>
+    <color name="itemColor">#314351</color>
+    <color name="itemStroke">#212D3B</color>
+    <color name="subTitleColor">#B9B9B9</color>
+
+    <color name="okTextColor">#212D3B</color>
+    <color name="okPressedColor">#00C897</color>
+    <color name="tabTextColor">#E9E8E8</color>
+    <color name="appTitleColor">#FFFFFF</color>
+    <color name="secondaryColor">#212D3B</color>
+    <color name="buttonTitleColor">#314351</color>
+    <color name="iconColor">#E1E1E1</color>
+    <color name="strokeColor">#A6A6A6</color>
+
+</resources>
